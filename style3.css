@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+  box-shadow: 0px 0.2px 0px dimgray;
+}
+.header-button button{
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  margin-top: 5px;
+  transition: .6s;
+}
+.header-button button:hover{
+  color: dimgray;
+}
+.header-h2{
+  color: red;
+}
+main{
+  padding: 7rem 2.5rem;
+}
+.icon{
+  border: 2px solid red;
+  color: red;
+  padding: 8px 9.5px;
+  display: flex;
+  position: absolute;
+  border-radius: 50px;
+}
+.para{
+  margin-top: 5rem;
+  font-size: .8rem;
+}
+.h1{
+  padding: 1rem 0rem;
+  font-size: 2rem;
+}
+
+.choose-section ul li{
+  list-style-type: none;
+  padding: .8rem 0rem;
+  font-size: 1.2rem;
+  display: flex;
+}
+.choose-section ul li i{
+  color: red;
+  margin-right: .7rem;
+  font-size: 1.6rem;
+}
+.btn-next{
+  margin-top: 2.8rem;
+  padding: 1rem 10rem;
+  text-align: center;
+  background-color: red;
+  color: white;
+  outline: none;
+  border-radius: 6px;
+  font-size: 1.5rem;
+}
+.descriptionall{
+  margin-top: 1.8rem;
+  background-color: gainsboro;
+  padding: 2rem 1rem;
+}
+.descriptionall a{
+  color: gray;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.description{
+  display: flex;
+  margin-top: .8rem;
+}
+.description div{
+  padding: 0px 5px;
+}
+.description li{
+  padding: 9px 0px;
+  list-style-type: none;
+}
+.description li a{
+  list-style-type: none;;
+}
+.right{
+  margin-left: 3rem;
+}
+#select{
+  background-color: black;
+  color: white;
+  padding: .5rem 1rem;
+  border-radius: 6px;
+}
+.option{
+  margin: 1rem .5rem;
+  font-size: larger;
+}

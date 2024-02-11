@@ -1,0 +1,90 @@
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sevillana', cursive;*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header{
+  background-image: url("/netflix-web.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 1rem;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.titel{
+  color: red;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+}
+.button{
+  background-color: red;
+  color: white;
+  padding: .4rem .8rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: .2s;
+}
+.button:hover{
+  background-color: grey;
+}
+.h2{
+  color: white;
+  font-weight: bolder;
+  font-size: 2.2rem;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 0rem 1.6rem;
+}
+.header-p1{
+  color: white;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.2rem; 
+}
+.header-p2{
+  margin-top: 1.8rem;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.all-p{
+  padding: 0rem 3rem;
+}
+form{
+  margin-top: 1rem;
+  text-align: center;
+}
+form #email{
+  max-width: 100%;
+  padding: .6rem;
+  font-size: large;
+  border: none;
+  background-color:  rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  color: white;
+  border: 0.5px solid dimgray;
+  transition: .2s;
+}
+form #email:hover{
+  border: 1px solid green;
+}
+form #button{
+  margin-top: 1rem;
+  padding: 15px;
+  border: none;
+  font-weight: bold;
+  background-color: red;
+  color: white;
+  border-radius: 6px;
+  font-size: 1rem;
+}

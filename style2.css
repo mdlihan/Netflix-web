@@ -1,0 +1,127 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav{
+  background-color: black;
+}
+.navber{
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem;
+}
+.navber h2{
+  color: red;
+}
+.n-right button{
+  color: white;
+  margin-top: .4rem;
+}
+.n-left h2{
+  font-size: 2.4rem;
+}
+#button2{
+  background-color: red;
+  padding: .5rem 1rem;
+  border-radius: 6px;
+  border: none;
+  font-size: .8rem;
+  margin-left: 6px;
+  transition: .6s;
+}
+#button2:hover{
+  border: 2px solid yellow;
+}
+#button1{
+  background-color: black;
+  padding: .5rem 1.3rem;
+  font-size: .8rem;
+  border-radius: 6px;
+  border: 0.6px solid darkgray;
+  transition: .6s;
+}
+#button1:hover{
+  border: 2px solid yellow;
+}
+.nav-des{
+  color: white;
+  padding: 1rem;
+}
+main{
+  padding: 1rem;
+}
+.contuct-h2{
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.contuct-h4{
+  margin-top: 2rem;
+  font-size: 1.1rem;
+}
+#text{
+ width: 100%;
+  padding: .6rem .7rem;
+  font-size: 1rem;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  border: 0.5px solid darkgray;
+  outline: 0;
+  background-color: transparent;
+}
+.all-text{
+  position: relative;
+}
+.text{
+  position: relative;
+ 
+}
+.icon{
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 1.2rem;
+  margin-left: 92%;
+}
+.icon-button{
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+  color: gray;
+}
+.quick-contant{
+  margin-top: 1.6rem;
+}
+.quick-contant ul li{
+  list-style-type: none;
+  padding: 1rem .2rem;
+}
+.quick-contant ul li a{
+  margin-left: 15px;
+  color: black;
+  font-weight: bold;
+}
+footer{
+  padding: 15px;
+  background-image: linear-gradient(80deg,black,black,red)
+}
+footer ul li{
+  list-style-type: none;
+  padding: 10px 0px;
+}
+footer ul li a{
+  color: darkgray;
+  font-weight: bolder;
+}
+#select{
+  padding: 1rem 1.5rem;
+  font-size: large;
+  background-color: transparent;
+  color: darkgray;
+  border-radius: 6px;
+  font-weight:bolder;
+  outline: none;
+}

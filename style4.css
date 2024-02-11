@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+  box-shadow: 0px 0.2px 0px dimgray;
+}
+.header-button button{
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  margin-top: 5px;
+  transition: .6s;
+}
+.header-button button:hover{
+  color: dimgray;
+}
+.header-h2{
+  color: red;
+}
+.all-icon{
+  display: flex;
+}
+
+.all-icon div{
+  padding: 0rem 0.7rem;
+}
+.all-icon i{
+  color: red;
+}
+main{
+  padding: 7rem 2rem;
+}
+.details{
+  margin-top: 1rem;
+}
+.details h1{
+  padding: 1rem 0rem;
+}
+.btn-next{
+  margin-top: 2.8rem;
+  padding: 1rem 10rem;
+  text-align: center;
+  background-color: red;
+  color: white;
+  outline: none;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.descriptionall{
+  margin-top: 1.8rem;
+  background-color: gainsboro;
+  padding: 2rem 1rem;
+}
+.descriptionall a{
+  color: gray;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.description{
+  display: flex;
+  margin-top: .8rem;
+}
+.description div{
+  padding: 0px 5px;
+}
+.description li{
+  padding: 9px 0px;
+  list-style-type: none;
+}
+.description li a{
+  list-style-type: none;;
+}
+.right{
+  margin-left: 3rem;
+}
+#select{
+  background-color: black;
+  color: white;
+  padding: .5rem 1rem;
+  border-radius: 6px;
+}
+.option{
+  margin: 1rem .5rem;
+  font-size: larger;
+}

@@ -1,0 +1,116 @@
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sevillana', cursive;*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  padding: 1rem;
+}
+.title{
+  color: red;
+}
+.sing-in{
+  color: white;
+  margin-top: 1rem;
+}
+form{
+  margin-top: 1rem;
+}
+form .submit{
+  width: 100%;
+  padding: 1.2rem .8rem;
+  font-size: 1rem;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: black;
+  border: 0.5px solid darkgray;
+  color: white;
+}
+#sing-in{
+  width: 100%;
+  padding: .7rem;
+  margin-top: 10px;
+  background-color: red;
+  border-radius: 6px;
+  color: white;
+  font-size: 1rem;
+  border: none;
+}
+.forget{
+  text-align: center;
+  margin-top: 1rem;
+}
+.forget a{
+  text-decoration: none;
+  color: white;
+}
+#remember{
+  color: white;
+  padding-left: 3px;
+}
+#checkbox{
+  margin-top: 1rem;
+}
+.des{
+  color: white;
+  margin-top: 1rem;
+  color: dimgray;
+}
+#sing{
+  color: white;
+  text-decoration: none;
+}
+.learn{
+  text-decoration: none;
+  color: blue;
+  font-size: 1rem;
+}
+.p1{
+  font-size: .9rem;
+}
+.toggle{
+  margin-top: 6px;
+  font-size: .9rem;
+  opacity: 0;
+}
+.hr{
+  color: dimgrey;
+  margin-top: 2rem;
+}
+.descriptionall{
+  margin-top: 1.8rem;
+}
+.descriptionall a{
+  color: darkgray;
+  font-size: 0.9rem;
+}
+.description{
+  display: flex;
+  margin-top: .8rem;
+}
+.description div{
+  padding: 0px 5px;
+}
+.description li{
+  padding: 9px 0px;
+  list-style-type: none;
+}
+.right{
+  margin-left: 3rem;
+}
+#select{
+  background-color: black;
+  color: white;
+  padding: .5rem 1rem;
+  border-radius: 6px;
+}
+.option{
+  margin: 1rem .5rem;
+  font-size: larger;
+}
